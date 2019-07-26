@@ -13,8 +13,9 @@ vagrant up
 Please note it may take sometime for "vagrant up" command to get complete. Now, The system is ready to use. Use _Vagrant ssh_ command afterwards to fastly configure your virtual machine.
 
 ## Install
-Once vagrant is up and running. Run the following command to access aws server with "grader" as user on port "2200"
+Once vagrant is up and running.Private SSH key for grader user is available in Student Notes.
 
+Run the following command to access aws server with "grader" as user on port "2200".
 ```
 sudo ssh -i ~/.ssh/grader_key.rsa -p 2200 grader@52.62.67.187
 ```
